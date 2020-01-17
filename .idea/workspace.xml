@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="1e22e3a4-ae41-4d83-841d-95edf5675397" name="Default Changelist" comment="" />
 =======
     <list default="true" id="0985af68-3784-4fec-b15a-160e9c3a7443" name="Default Changelist" comment="" />
+>>>>>>> remotes/origin/dev
+=======
+    <list default="true" id="0985af68-3784-4fec-b15a-160e9c3a7443" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
 >>>>>>> remotes/origin/dev
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_code/Run_all_tests.py">
@@ -26,6 +33,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1782">
               <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+>>>>>>> remotes/origin/dev
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_code/Run_all_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="65" column="19" lean-forward="true" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
 >>>>>>> remotes/origin/dev
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -43,15 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_code/PO/LoginPage.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="54">
               <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
 =======
             <state relative-caret-position="378">
               <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+>>>>>>> remotes/origin/dev
+=======
+            <state relative-caret-position="54">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
 >>>>>>> remotes/origin/dev
               <folding>
                 <element signature="e#24#59#0" expanded="true" />
@@ -155,6 +174,11 @@
               <item name="Web_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web_Project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Web_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="test_code" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -252,6 +276,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -286,11 +311,16 @@
     <entry file="file://$PROJECT_DIR$/test_code/Run_all_tests.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="351">
           <caret line="65" column="19" lean-forward="true" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
 =======
         <state relative-caret-position="1782">
           <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+>>>>>>> remotes/origin/dev
+=======
+        <state relative-caret-position="379">
+          <caret line="65" column="19" lean-forward="true" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
 >>>>>>> remotes/origin/dev
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -357,8 +387,8 @@
 =======
     <entry file="file://$PROJECT_DIR$/test_code/PO/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="54">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
             <element signature="e#24#59#0" expanded="true" />
           </folding>
