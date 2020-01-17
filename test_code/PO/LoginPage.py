@@ -15,7 +15,7 @@ class LoginPage(Action):
     #使用密码方式登录
     password_login_loc = (By.ID, "switchAccountLogin")
     #读取测试数据的路径
-    fpath = "D:\\StudyProject\\data\\case_data.xls"
+    fpath = "D:\\Web_Project\\data\\case_data.xls"
 
     #登录页面元素读取两种方式：1、直接赋值 2、读取excel表里的元素
     #1、定位器，通过元素属性定位元素对象

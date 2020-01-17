@@ -26,7 +26,7 @@ class Case_Login_PO( unittest.TestCase ):
         cls.driver.implicitly_wait( 5 )
         # 使用ini配置文件读取要访问的url
         cf = configparser.ConfigParser()
-        cf.read( "D:\\StudyProject\\data\\login_126mail_data.ini" )
+        cf.read( "D:\\Web_Project\\data\\login_126mail_data.ini" )
 
         cls.url = cf.get( "urlconf", "url" )
 
@@ -73,7 +73,7 @@ class Case_Login_PO( unittest.TestCase ):
 
 def __generateTestCases():
     login_page = LoginPage.LoginPage
-    table = login_page.casedata( "D:\\StudyProject\\data\\case_data.xls", 1 )
+    table = login_page.casedata( "D:\\Web_Project\\data\\case_data.xls", 1 )
     for txt in table:
         print( txt )
         setattr( Case_Login_PO, 'test_login_%s_%s' % (txt[0], txt[1]),

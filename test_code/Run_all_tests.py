@@ -7,8 +7,8 @@ import time
 import os
 
 # casepath = "."
-casepath = "D:\\StudyProject\\test_code\\test_case\\"
-result = "D:\\StudyProject\\result\\"
+casepath = "D:\\Web_Project\\test_code\\test_case\\"
+result = "D:\\Web_Project\\result\\"
 
 
 # result = "../result/"

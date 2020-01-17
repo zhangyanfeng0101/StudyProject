@@ -8,7 +8,7 @@ import smtplib, os,time
 #发送邮件函数
 def send_mail():
     #先获取最新的日期目录
-    report_dir = r'D:\\TestProject\\my-test\\result'
+    report_dir = r'D:\\Web_Project\\result'
     # 列举report_dir目录下的所有文件（名），结果以列表形式返回。
     lists = os.listdir( report_dir )
     #获取文件的最后修改时间，最终按文件修改时间从小到大排序

@@ -6,7 +6,7 @@ import xlrd.sheet
 import time, os
 import sys
 # path=os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-path="D:\\StudyProject"
+path="D:\\Web_Project"
 
 class Action(object):
 	"""
