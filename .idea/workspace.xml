@@ -19,7 +19,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_code/Run_all_tests.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="702">
+=======
+            <state relative-caret-position="655">
+>>>>>>> Stashed changes
               <caret line="65" column="19" lean-forward="true" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -99,6 +103,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -205,10 +214,36 @@
       <option name="presentableId" value="Default" />
       <updated>1579243195496</updated>
     </task>
+<<<<<<< Updated upstream
+=======
+    <task id="LOCAL-00001" summary="增加显示内容">
+      <created>1579244565084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579244565084</updated>
+    </task>
+    <task id="LOCAL-00002" summary="开启自动发送邮件">
+      <created>1579244680038</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579244680038</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加dev分支">
+      <created>1579244925748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579244925748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
@@ -229,7 +264,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+<<<<<<< Updated upstream
   <component name="editorHistoryManager">
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加显示内容" />
+    <MESSAGE value="开启自动发送邮件" />
+    <MESSAGE value="增加dev分支" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加dev分支" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_code/Run_all_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="65" column="19" lean-forward="true" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/test_code/PO/BasePage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
