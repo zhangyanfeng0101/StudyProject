@@ -1,1 +1,0 @@
-web: python hello.py --port=$VCAP_APP_PORT
