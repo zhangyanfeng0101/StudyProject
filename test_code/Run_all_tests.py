@@ -60,7 +60,7 @@ else:
     fp.close()  # 关闭报告文件
 
 # 发送邮件
-# send_mail()
+send_mail()
 
 if __name__ == "__main__":
     unittest.main()
