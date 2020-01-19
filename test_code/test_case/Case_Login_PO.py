@@ -2,9 +2,7 @@
 __author__ = 'tsbc'
 import unittest
 import sys, time, os
-
 sys.path.append( "path" )
-# from .PO import LoginPage
 curPath = os.path.abspath( os.path.dirname( __file__ ) )
 rootPath = os.path.split( curPath )[0]
 sys.path.append( rootPath )
@@ -15,7 +13,7 @@ from test import test_support
 import configparser
 
 
-class Case_Login_PO( unittest.TestCase ):
+class Case_Login( unittest.TestCase ):
     """
 	126邮箱登录的case
 	"""
@@ -76,8 +74,8 @@ def __generateTestCases():
     table = login_page.casedata( "D:\\Web_Project\\data\\case_data.xls", 1 )
     for txt in table:
         print( txt )
-        setattr( Case_Login_PO, 'test_login_%s_%s' % (txt[0], txt[1]),
-                 Case_Login_PO.getTestFunc( *txt ) )
+        setattr( Case_Login, 'test_login_%s_%s' % (txt[0], txt[1]),
+                 Case_Login.getTestFunc( *txt ) )
 
 
 __generateTestCases()
