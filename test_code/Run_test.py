@@ -48,7 +48,8 @@ else:
 
     # 运行测试用例
     runner.run( testunit )
-    fp.close()  # 关闭报告文件
+    # 关闭报告文件
+    fp.close()
 
 
 #发送邮件

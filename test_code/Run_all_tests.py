@@ -54,7 +54,8 @@ else:
 
     # 运行测试用例
     runner.run( test_case )
-    fp.close()  # 关闭报告文件
+    # 关闭报告文件
+    fp.close()
 
 # 发送邮件
 send_mail()
