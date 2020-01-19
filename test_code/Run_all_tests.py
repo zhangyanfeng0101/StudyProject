@@ -1,17 +1,14 @@
-import sys
+__author__ = 'tsbc'
+import os,sys
+#将当前的项目路径加入到python运行环境中 如不添加则在cmd中无法运行，import导入的模块找不到，提示no moudle xxx
+sys.path.append('D:\\Web_Project')
 import unittest
-from test_code.public import HTMLTestRunner_cn  # 导入包方式
-# import HTMLTestRunner_cn    #用import导入需把HTMLTestRunner_cn文件放到python目录lib下
-from test_code.public.send_mail import *
+# from test_code.public import HTMLTestRunner_cn  # 导入包方式
+import HTMLTestRunner_cn  # 用import导入需把HTMLTestRunner_cn文件放到python目录lib下
+from test_code.public.send_mail import send_mail
 import time
-import os
-
-# casepath = "."
-casepath = "D:\\Web_Project\\test_code\\test_case\\"
-result = "D:\\Web_Project\\result\\"
-
-
-# result = "../result/"
+casepath = "..\\test_code\\test_case\\"
+result = "..\\result\\"
 
 
 def Creatsuite():
