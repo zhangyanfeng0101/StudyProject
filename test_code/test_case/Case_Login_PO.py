@@ -1,30 +1,22 @@
 # -*- coding: utf-8 -*-
-__author__ = 'tsbc'
 import unittest
-import sys, time, os
-sys.path.append( "path" )
-curPath = os.path.abspath( os.path.dirname( __file__ ) )
-rootPath = os.path.split( curPath )[0]
-sys.path.append( rootPath )
-
+import time,configparser
 from test_code.PO import LoginPage
 from selenium import webdriver
-from test import test_support
-import configparser
 
+#关于所有地方读取文件路径，若使用相对路径，本模块直接运行调试需改成..\\..\\data，在Run_all_tests文件运行需改成..\\data，原因暂时未找到
 
 class Case_Login( unittest.TestCase ):
     """
 	126邮箱登录的case
 	"""
-
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome()
         cls.driver.implicitly_wait( 5 )
         # 使用ini配置文件读取要访问的url
         cf = configparser.ConfigParser()
-        cf.read( "D:\\Web_Project\\data\\login_126mail_data.ini" )
+        cf.read( "..\\data\\login_126mail_data.ini" )
 
         cls.url = cf.get( "urlconf", "url" )
 
@@ -71,11 +63,10 @@ class Case_Login( unittest.TestCase ):
 
 def __generateTestCases():
     login_page = LoginPage.LoginPage
-    table = login_page.casedata( "D:\\Web_Project\\data\\case_data.xls", 1 )
+    table = login_page.casedata( "..\\data\\case_data.xls", 1 )
     for txt in table:
         print( txt )
-        setattr( Case_Login, 'test_login_%s_%s' % (txt[0], txt[1]),
-                 Case_Login.getTestFunc( *txt ) )
+        setattr( Case_Login, 'test_login_%s_%s' % (txt[0], txt[1]),Case_Login.getTestFunc( *txt ) )
 
 
 __generateTestCases()
